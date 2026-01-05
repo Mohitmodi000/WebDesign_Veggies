@@ -1,0 +1,324 @@
+.icon {
+    border: 2px solid black;
+    margin-right: 8px;
+}
+
+.iconcontane {
+    display: flex;
+}
+
+.contaner {
+    padding: 30px;
+    background-color: black;
+}
+
+.text {
+    font-size: 36px;
+}
+
+.icon:hover {
+    border: 2px solid #b0b435;
+    color: #b0b435;
+}
+
+hr {
+    height: 30px;
+}
+
+.lnk {
+    text-decoration: none;
+}
+
+.lnk:hover {
+    padding: 4px;
+}
+
+div {
+    color: white;
+}
+
+#m {
+    margin-top: 10px;
+}
+
+.colo {
+    background-color: white;
+    color: black;
+}
+#navhover:hover{
+    color: #b0b435;
+
+}
+#colour{
+    color: #b0b435;
+}
+#center{
+    margin-bottom: 150px;
+}
+.carousel-indicators button{
+    height: 5px;
+    width: 5px;
+}
+.postion{
+    position:sticky;
+    top: 0px;
+    z-index: 999;
+}
+#colours{
+    background-color: #b0b435;
+    padding: 30px;
+}
+
+.d2:hover{
+    background-color: black;
+    color: aliceblue;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.overlay{
+    background-color: rgb(174, 174, 216,0.6);
+}
+.d2{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    background-color: #b0b435;
+    color: aliceblue;
+}
+.d1{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-block: 3px;
+    background-color: #b0b435;
+    color: aliceblue;
+    width: 320px;
+}
+.d1:hover{
+    color: aliceblue;
+    background-color: black;
+}
+.decoration{
+    width: 320px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.decoration:hover img{
+    transform: translatex(5px);
+}
+.all{
+    background-color: #f4f4f4;}
+.dec2{
+    border: 2px solid black;
+    padding-inline: 40px;
+}
+.dec2 a{
+    text-decoration: none;
+   width: 100px;
+    text-align: center;
+}
+.d5:hover{
+    padding-top: 5px;
+
+}
+
+.hw{
+    width: 4px;
+    height: 4px;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.my-btn {
+    color: #f4f4f4 !important;
+    background-color: #b0b435 !important;
+    border-color: #b0b435 !important;
+}
+
+.my-btn:hover {
+    background-color: #9ca12f;
+    color: white;
+}
+.main {
+
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.abc {
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #b0b435;
+    color: white;
+    margin:1px;
+}
+    
+
+.abc:active {
+    background-color: black;
+}
+.shuter{ z-index: 999;
+    height:0px;
+    width: 320px;
+    background-color: rgba(129, 118, 118, 0.5);
+    position: absolute;
+}
+.imgs:hover .shuter{ z-index: 999;
+    height: 300px ;
+    width: 320px;
+    background-color: rgba(129, 118, 118, 0.5);
+    position: absolute;
+}
+.imgs img{
+    position: relative;
+
+    height: 300px ;
+   
+}
+.imgs{width: 320px;
+   
+}
+#btn1{
+    height: 25px;
+    width: 30px;
+    border: 5px solid  white;
+    background-color: transparent;
+    background-color: #9ca12f;
+    border-radius: 20%;
+}
+body{
+    overflow-x: hidden;
+}
+.imgs1 img {
+    width: 250px;
+    z-index: 2;
+    position: absolute;
+}
+
+.imgs1 {
+    position: relative;
+}
+
+.contaner1 {
+    width: 250px;
+    height: 320px;
+   
+    background-color: #f5f5f5;
+}
+
+.shuter1 {
+    width: 250px;
+    height: 0;
+    transition: height 0.5s linear;
+    z-index: 5;
+    background-color: rgba(231, 231, 198, 0.6);
+    position: absolute;
+}
+
+.contaner1:hover .shuter1 {
+    height: 238px;
+}
+
+.all {
+    height: 230px;
+}
+
+.sale {
+    position: absolute;
+    z-index: 44;
+    left: 215px;
+    background-color: #b0b435;
+    color: white;
+}
+
+.mrp {
+    background-color: #b0b435;
+    color: white;
+    width: 45px;
+}
+
+.add {
+    text-decoration: none;
+    background-color: #b0b435;
+    color: #f5f5f5;
+    padding-block: 5px;
+    padding-inline: 20px;
+    position: absolute;
+    top: 205px;
+    opacity: 0;
+    transition: opacity 0.3s linear;
+}
+
+.contaner1:hover .add {
+    opacity: 1;
+}
+
+.add:hover {
+    background-color: #131310;
+    color: #f5f5f5;
+}
+
+.item-icon {
+    position: absolute;
+    left: 215px;
+    top: 165px;
+    background-color: #b0b435;
+    color: #f5f5f5;
+    padding-inline: 8px;
+    opacity: 0;
+    transition: opacity 0.3s linear;
+}
+
+.contaner1:hover .item-icon {
+    opacity: 1;
+}
+
+
+#i:hover {
+    background-color: #131310;
+    color: #f5f5f5;
+
+}
+.raju{
+    min-height: 500px;
+   max-width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #f4f4f4;
+  }
+
+.dholu:hover .u1{
+     margin-top: 8px;
+
+}
+.carousel1{
+    filter:brightness(50%);
+}
+.btns{border: 2px solid black;
+width: 320px;}
+.bball {
+    width: 450px;
+    ;
+}
+
+.aaa {
+    width: 500px;
+}
+.bi:hover{
+    background-color:#b0b435 !important;
+}
+.btext{
+    padding-top: 50px;
+    height: 150px;
+}
+.dall{
+    background-color: #f5f5f5;
+}
