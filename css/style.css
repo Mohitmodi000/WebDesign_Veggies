@@ -1,3 +1,7 @@
+input{
+    max-width:100%;
+}
+
 .icon {
     border: 2px solid black;
     margin-right: 8px;
@@ -321,4 +325,5 @@ width: 320px;}
 }
 .dall{
     background-color: #f5f5f5;
+
 }
